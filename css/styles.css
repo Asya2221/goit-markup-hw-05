@@ -711,11 +711,14 @@ ul {
 
 .input-wrap {
     position: relative;
-    margin-bottom: 8px;
+}
+
+.modal-content {
+    margin-bottom: 16px;
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-textarea {
@@ -748,7 +751,6 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    align-items: center;
 }
 
 .modal-check-link {
