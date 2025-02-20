@@ -534,7 +534,7 @@ ul {
     height: 24px;
 }
 
-.footer-form-container {
+.footer-form-wrapper {
     display: flex;
     flex-direction: column;
 }
