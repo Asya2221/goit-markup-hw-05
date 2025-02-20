@@ -463,10 +463,6 @@ ul {
     justify-content: space-between;
 }
 
-.footer-content {
-    margin-right: 120px;
-}
-
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -708,6 +704,7 @@ ul {
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-wrap {
@@ -715,7 +712,7 @@ ul {
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-textarea {
@@ -731,6 +728,7 @@ ul {
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
 }
 
 .modal-textarea:focus {
@@ -758,6 +756,7 @@ ul {
 }
 
 .modal-check-item {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -777,6 +776,9 @@ ul {
 }
 
 .modal-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -791,7 +793,8 @@ ul {
     height: 56px;
     border: none;
     border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover {
