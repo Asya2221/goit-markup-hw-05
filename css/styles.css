@@ -716,7 +716,8 @@ ul {
 .modal-field {
     margin-bottom: 8px;
 }
-.modal-field:nth-of-type(4) {
+
+.modal-field-com {
     margin-bottom: 16px;
 }
 
